@@ -1,0 +1,107 @@
+div {
+    color: rgb(53, 158, 184);
+    font-size: 15px;
+    
+}
+
+div:hover {
+    background: rgb(230, 171, 222);
+}
+
+span {
+    display: block;
+}
+
+section:nth-of-type(1) {
+    background-color: aquamarine;
+    width: 600px;
+    height: 150px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+section:nth-of-type(1) {
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+section:nth-of-type(2) {
+    background-color: rgb(255, 127, 234);
+    position: relative;
+    height: 210px;
+    width: 400px;
+}
+
+section:nth-of-type(3) {
+    background-color: aquamarine;
+    position: relative;
+    height: 165px;
+    width: 400px;
+}
+
+section:nth-of-type(4) {
+    background-color: rgb(255, 127, 234);
+}
+
+section:nth-of-type(5) {
+    background-color: aquamarine;
+}
+
+section:nth-of-type(6) {
+    background-color: rgb(255, 127, 234);
+}
+
+section:nth-of-type(7) {
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 455px){
+    header {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 455px){
+    div {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 683px){
+    section:nth-of-type(1) {
+        background-color: aquamarine;
+        width: 200px;
+        height: 350px;
+        border: 9px solid black;
+        padding: 20px;
+        margin: 10x;
+}
+
+@media screen and (max-width: 400px){
+    section:nth-of-type(6) {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    section:nth-of-type(2) {
+        font-size: 13px;
+        height: 135px;
+        width: 200x;
+    }
+}
+
+@media screen and (max-width: 400px){
+    section:nth-of-type(3) {
+        font-size: 13px;
+        height: 135px;
+        width: 200x;
+    }
+}
+
+@media screen and (max-width: 400px){
+    section:nth-of-type(7) {
+        font-size: 10px;
+    }
+}
